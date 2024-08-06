@@ -1,200 +1,200 @@
 /* Estilos encabezado */
 .fondoheader {
-    background-color: rgb(49, 49, 166);
+  background-color: rgb(49, 49, 166);
 }
 
 .centrartexto {
-    text-align: center;
+  text-align: center;
 }
 
 .margenderecho {
-    text-align: justify;
-    margin-right: 15%;
-    padding-right: 3px;
+  text-align: justify;
+  margin-right: 15%;
+  padding-right: 3px;
 }
 
 /* Inicio container de header*/
 .grid-container {
-  display: grid;
-  background-color: rgb(49, 49, 166);
-  padding: 0px;
+display: grid;
+background-color: rgb(49, 49, 166);
+padding: 0px;
 }
 
 .grid-item1 {
-  text-align: left;
-  padding: 1px;
+text-align: left;
+padding: 1px;
 }
 
 .grid-item2 {
-  text-align: right;
-  padding: 1px;
+text-align: right;
+padding: 1px;
 }
 
 .item1 {
-  grid-column: 1;
-  grid-row: 1 / span 1;
+grid-column: 1;
+grid-row: 1 / span 1;
 }
 
 .item2 {
-  grid-column: 3;
-  grid-row: 1 / span 1;
+grid-column: 3;
+grid-row: 1 / span 1;
 }
 
 .item3 {
-  grid-column: 1;
-  grid-row: 3 / span 1;
+grid-column: 1;
+grid-row: 3 / span 1;
 }
 /*Fin container*/
 
 
 .textopequeno { /* Texto idiomas y formulario */
-    font-size: 90%; 
+  font-size: 90%; 
 }
 
 .textofooter { /* Texto pequeño*/
-    font-size: 70%; 
+  font-size: 70%; 
 }
 
 .textoheader {
-    color: white;
+  color: white;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-  }
+  text-decoration: none;
+  color: black;
+}
 
 .abtn {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
 .btnidioma {
-    background-color: rgb(3, 3, 111);
-    border: 2px solid white;
-    border-radius: 12px;
-    padding: 5px;    
+  background-color: rgb(3, 3, 111);
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 5px;    
 }
 
 .btnidioma:hover {
-    background-color: rgb(93, 93, 210);
+  background-color: rgb(93, 93, 210);
 }
 
 .btnmenu {
-    background-color: rgb(167, 167, 219);
-    border: 2px solid blue;
-    border-radius: 12px;
-    padding: 5px;
+  background-color: rgb(167, 167, 219);
+  border: 2px solid blue;
+  border-radius: 12px;
+  padding: 5px;
 }
 
 .btnmenu:hover {
-    background-color: rgb(157, 233, 157);
+  background-color: rgb(157, 233, 157);
 }
 
 header, section, nav, footer {
-        padding: 20px;
-        margin: 20px;
-        border: 1px solid #6e44ec5b;
-        border-radius: 8px;
-    }
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid #6e44ec5b;
+      border-radius: 8px;
+  }
 
 .subtitresalta {
-    background-color: #baadcd;
-    color: rgb(45, 39, 39);
+  background-color: #baadcd;
+  color: rgb(45, 39, 39);
 }
 
 /* Estilos generales para la navegación y las secciones */
 .sectioncolor {
-    background-color: rgba(119, 119, 225, 0.142);
+  background-color: rgba(119, 119, 225, 0.142);
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .navega {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    margin: 0 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .lilocal {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 section {
-    display: none; /* Ocultamos todas las secciones por defecto */
+  display: none; /* Ocultamos todas las secciones por defecto */
 }
 
 /* Mostrar la sección inicial por defecto */
 #seccion1 {
-    display: block;
+  display: block;
 }
 
 .formatoimgblog {
-    text-align: center;
-    border: 5px;
-    border-radius: 5px;
-    padding-top: 2%;
+  text-align: center;
+  border: 5px;
+  border-radius: 5px;
+  padding-top: 2%;
 }
 
 .textocentrado {
-    text-align: center;
+  text-align: center;
 }
 
 /*Para la section de los proyectos*/
 div.gallery {
-    border: 1px solid #ccc;
-  }
-  
+  border: 1px solid #ccc;
+}
+
 div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
+  border: 1px solid #777;
+}
+
 div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
+  width: 100%;
+  height: auto;
+}
+
 div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
+  padding: 15px;
+  text-align: center;
+}
+
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 
 @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
   }
-  
+}
+
 @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
+  .responsive {
+    width: 100%;
   }
+}
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  } /*Fin section de los proyectos*/
+  content: "";
+  display: table;
+  clear: both;
+} /*Fin section de los proyectos*/
 
 #menutecnolog { /* Esta opción me sirve para que el Footer no se sobreponga al submenú */
-    z-index:9999;
+  z-index:9999;
 }

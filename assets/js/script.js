@@ -40,5 +40,3 @@ function validarCorreo() {
 window.onload = function () {
     document.getElementById("validaButton").addEventListener("click", validarCorreo);
 }
-
-
