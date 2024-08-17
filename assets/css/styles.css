@@ -1,4 +1,11 @@
 /* Estilos encabezado */
+body {
+  display: grid;
+  min-height: auto;
+  grid-template-rows: auto 1fr auto; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 .fondoheader {
   background-color: rgb(49, 49, 166);
 }
@@ -46,13 +53,16 @@ grid-row: 3 / span 1;
 }
 /*Fin container*/
 
-
 .textopequeno { /* Texto idiomas y formulario */
   font-size: 90%; 
 }
 
-.textofooter { /* Texto pequeño*/
-  font-size: 70%; 
+.botonpequeno {
+  font-size: 60%; 
+}
+
+.textopie { /* Texto pequeño*/
+  font-size: 55%; 
 }
 
 .textoheader {
@@ -85,6 +95,15 @@ a {
   border: 2px solid blue;
   border-radius: 12px;
   padding: 5px;
+}
+
+.btnsubmenu {
+  background-color: rgb(167, 167, 219);
+  border: 1px solid blue;
+  border-radius: 1px;
+  padding: 3%;
+  width: 300px;
+  text-align: center;
 }
 
 .btnmenu:hover {
@@ -139,8 +158,10 @@ section {
 .formatoimgblog {
   text-align: center;
   border: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-top: 2%;
+  width: 100%;
+  height: auto;
 }
 
 .textocentrado {
@@ -160,6 +181,14 @@ div.gallery img {
   width: 100%;
   height: auto;
 }
+
+.imagencv {
+  float: left;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: left;
+  display: flex;
+  }
 
 div.desc {
   padding: 15px;
